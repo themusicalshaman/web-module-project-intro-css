@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -43,32 +43,58 @@ table {
 }
 /*this is after the css reset*/
 
-.box1{
-    border:3px solid #4f4f4f;
-    text-align:center;
-    padding:4%;
-    background-color: red;
-    display: inline-block;
-    width: 20%;
-    margin: 0 2%; 
+*{
+    border: 1px solid grey;
 }
 
-.box2{
-    border:3px solid #4f4f4f;
-    text-align:center;
-    padding:4%;
-    background-color: red;
-    display: inline-block;
-    width: 20%;
-    margin: 0 2%; 
+h1{
+    font-family: 'Chelsea Market', cursive;
 }
 
-.box3{
-    border:3px solid #4f4f4f;
-    text-align:center;
-    padding:4%;
-    background-color: red;
-    display: inline-block;
-    width: 20%;
-    margin: 0 2%; 
+body{
+    font-family: 'Roboto Mono', monospace;
 }
+
+.Plan{
+    
+    text-align:center;
+    padding:2%;
+    background-color:#FF764E;
+    border-radius:10%;
+    margin: 8%;
+    
+}
+
+.Learn{
+    text-align:center;
+    padding:2%;
+    background-color:#5ED3EB;
+    border-radius:10%;
+    margin: 8%;
+}
+.Get{
+    text-align:center;
+    padding:2%;
+    background-color:#FFCD69;
+    border-radius:10%;
+    margin: 8%;
+}
+
+.pictureA{
+    border-radius:50%;
+    max-width: 25%;
+    padding: 10%;
+}
+
+.sectionC{
+    text-align: center;
+}
+
+.iconA{
+    max-width: 12%;
+}
+
+.iconB{
+    max-width: 12%;
+}
+
