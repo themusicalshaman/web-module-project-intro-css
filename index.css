@@ -49,6 +49,8 @@ table {
 
 h1{
     font-family: 'Chelsea Market', cursive;
+    display: inline;
+    
 }
 
 body{
@@ -82,8 +84,10 @@ body{
 
 .pictureA{
     border-radius:50%;
-    max-width: 25%;
-    padding: 10%;
+    max-width: 15%;
+    padding: 5%;
+    display: inline;
+    
 }
 
 .sectionC{
@@ -98,3 +102,9 @@ body{
     max-width: 12%;
 }
 
+.pictureB{
+    width: 100%; /* width of container */
+    height: 400px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%;
+}
